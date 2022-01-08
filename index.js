@@ -115,7 +115,7 @@ function getWinner() {
         state[diagBackward[0] - 1][diagBackward[1] - 1] === cellValue
       ) {
         diagBackward[0]--;
-        diagBackward[1]++;
+        diagBackward[1]--;
         diagBackInARow++;
       }
       if (diagBackInARow > 3) {
